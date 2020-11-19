@@ -1,0 +1,77 @@
+:root {
+    --main-link-color: rgb(236, 235, 235);
+    --main-linkHover-color: rgb(221, 221, 221);
+  }
+
+  body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h1, h2 {
+      text-align: center;
+  }
+  
+
+.postContainer {
+    width: 40vw;
+    border-style: solid;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+    border-width: thin;
+    border-radius: 5px 30px 30px 30px;
+}
+
+
+input[type="text"], input[type="password"] {
+    margin: 0.2rem;
+    border: 0;
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+input[type="submit"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--main-link-color);
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--main-linkHover-color);
+}
+
+.deleteButtonFieldset {
+    border: none;
+}
+
+.deleteButton {
+    float: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: var(--main-link-color);
+    border-radius: 10px;
+    height: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 1.5px 1.5px  #969696;
+}
+
+a:hover {
+    background-color: var(--main-linkHover-color);
+}
+
+.rules {
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    border-style: solid;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+    border-width: thin;
+    border-radius: 5px 30px 30px 30px;
+}
