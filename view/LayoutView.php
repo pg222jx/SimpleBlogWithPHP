@@ -29,10 +29,10 @@ class LayoutView {
         <head>
           <meta charset="utf-8">
           <link rel="stylesheet" href="style.css">
-          <title>Login Example</title>
+          <title>Login</title>
         </head>
         <body>
-          <h1>Assignment 2</h1>
+          <h1>Welcome</h1>
           
           ' . $this->renderIsLoggedIn($isLoggedIn) . '
 
